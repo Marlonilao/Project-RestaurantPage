@@ -1,7 +1,5 @@
 # Project-RestaurantPage
 
-# Restaurant Page
-
 This is a simple restaurant homepage built using JavaScript as part of The Odin Project's JavaScript curriculum.
 
 ## Features
