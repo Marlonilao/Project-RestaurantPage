@@ -6,11 +6,11 @@ export default function() {
     content.appendChild(about);
 
     const h1 = document.createElement('h1');
-    h1.textContent = "Davao's Finest Pastil";
+    h1.textContent = '"Kaon Ta, Bai!"';
     about.appendChild(h1);
 
     const para1 = document.createElement('p');
-    para1.textContent = "Davao's Finest Pastil serves the authentic taste of Mindanao’s beloved street food. Enjoy fragrant rice topped with savory shredded meat, wrapped in banana leaves for that signature aroma and flavor.\nRooted in Davao’s rich food culture, our pastil is freshly made, affordable, and full of heart. Experience the true flavor of Davao—one delicious wrap at a time."
+    para1.textContent = "Where Dabawenyos satisfy their BBQ cravings, one skewer at a time.\nA casual and homey eatery serving well-loved Filipino BBQ, pastil, and rice bowls. Perfect for barkada hangouts or solo meals with lutong-bahay feels."
     about.appendChild(para1);
 
     const hoursSection = document.createElement('div');
