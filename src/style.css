@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), 
+            url('./pexels-lantip-54516180-11676703.jpg') center/cover no-repeat;
+    color: #ffd580;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div#content div {
+    border: 1px solid #f4a261;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 16px;
+    text-align: left;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li span {
+    color: red;
+}
+
+nav button {
+  background-color: transparent;
+  color: #ffd580;
+  border: 2px solid #f4a261;
+  padding: 6px;
+  margin: 20px 6px 0 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+nav button:hover {
+  background-color: #f4a261;
+  color: #1a1a1a; /* dark text on warm background */
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+  transform: scale(1.05);
+}
+
+div#content div p {
+    font-size: small;
+}
+
+body > div:last-child {
+    position: absolute;
+    bottom: 10px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw
+}

@@ -1,6 +1,10 @@
+import './style.css';
 import function1 from './home.js';
 import function2 from './menu.js';
 import function3 from './contact.js';
+
+
+
 const content = document.getElementById('content');
 console.log('Project: Restaurant Page');
 

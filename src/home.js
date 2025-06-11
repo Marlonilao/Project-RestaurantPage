@@ -1,13 +1,24 @@
+import bbqIcon from './bbq.png';
+
+
 export default function() {
     const content = document.getElementById('content');
+
+    const h1 = document.createElement('h1');
+    h1.textContent = '"Kaon Ta, Bai!"  ';
+    content.appendChild(h1);
+
+    const iconBbq = document.createElement('img');
+    iconBbq.src = bbqIcon;
+    iconBbq.style.width = '38px';
+    iconBbq.style.height = '38px';
+    iconBbq.style.position = 'absolute';
+    iconBbq.style.top = '72px';
+    h1.appendChild(iconBbq);
 
     const about = document.createElement('div');
     about.classList.add('about-section');
     content.appendChild(about);
-
-    const h1 = document.createElement('h1');
-    h1.textContent = '"Kaon Ta, Bai!"';
-    about.appendChild(h1);
 
     const para1 = document.createElement('p');
     para1.textContent = "Where Dabawenyos satisfy their BBQ cravings, one skewer at a time.\nA casual and homey eatery serving well-loved Filipino BBQ, pastil, and rice bowls. Perfect for barkada hangouts or solo meals with lutong-bahay feels."

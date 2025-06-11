@@ -6,13 +6,13 @@ export default function() {
     h1.textContent = 'Menu';
     content.appendChild(h1);
 
-    const menu = document.createElement('div');
-    menu.classList.add('menu');
-    content.appendChild(menu);
+    // const content = document.createElement('div');
+    // content.classList.add('content');
+    // content.appendChild(content);
 
 
     const div1 = document.createElement('div');
-    menu.appendChild(div1);
+    content.appendChild(div1);
 
     const h31 = document.createElement('h3');
     h31.textContent = 'BBQ & Sugba'
@@ -44,7 +44,7 @@ export default function() {
 
 
     const div2 = document.createElement('div');
-    menu.appendChild(div2);
+    content.appendChild(div2);
 
     const h32 = document.createElement('h3');
     h32.textContent = 'Pastil Specials'
@@ -65,7 +65,7 @@ export default function() {
 
 
     const div3= document.createElement('div');
-    menu.appendChild(div3);
+    content.appendChild(div3);
 
     const h33 = document.createElement('h3');
     h33.textContent = 'Extras';
@@ -85,7 +85,7 @@ export default function() {
     });
 
     const div4= document.createElement('div');
-    menu.appendChild(div4);
+    content.appendChild(div4);
 
     const h34 = document.createElement('h3');
     h34.textContent = 'Beverages'
@@ -94,7 +94,7 @@ export default function() {
     const ul4 = document.createElement('ul');
     div4.appendChild(ul4);
 
-    const beverages = [{name: 'Bottled Water', price: 'PHP20.00'},{name:'Soft Drinks (Coke/Sprite/Royal)', price: 'PHP30.00', name: 'Ice Tea', price: 'PHP25.00'}, {name:'San Mig Light', price: 'PHP70.00'},{name: 'San Miguel Pilsen', price: 'PHP70.00'},{name: 'Red Horse Stalion', price: 'PHP70.00'}];
+    const beverages = [{name: 'Bottled Water', price: 'PHP20.00'},{name:'Soft Drinks (Coke/Sprite/Royal)', price: 'PHP30.00', name: 'Ice Tea', price: 'PHP25.00'}];
     beverages.forEach(element => {
          const li = document.createElement('li');
         const span = document.createElement('span')
